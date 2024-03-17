@@ -1,20 +1,39 @@
 ---
 # Display name
-title: Nita Rudra
+title: Zhenhao Zhao
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Department of Government
+role: Graduate Research Assistant
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Georgetown University
-    url: https://www.georgetown.edu/
+  - name: George Washington University
+    url: https://www.gwu.edu/
 
 # Short bio (displayed in user profile at end of posts)
-#bio: My research interests include machine learning, computer vision and data analysis.
+bio: My research interests include machine learning, computer vision and data analysis.
+
+# Interests to show in About widget
+interests:
+  - Robotic Intelligent System
+  - Computer Vision
+  - Machine Learning
+
+# Education to show in About widget
+education:
+  courses:
+    - course: PhD in Biomedical Engineer
+      institution: George Washington University
+      year: 2022-present
+    - course: MS in Computer Science
+      institution: George Washington University
+      year: 2020-2022
+    - course: BS in Computer Science
+      institution: Beijing Information Science and Technology University
+      year: 2016-2020
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -23,13 +42,20 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'mailto:zzhao@gwu.edu'
+#   - icon: twitter
+#     icon_pack: fab
+#     link: https://twitter.com/GeorgeCushen
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.com/citations?user=OLH0DEwAAAAJ
-  # - icon: cv
-  #   icon_pack: ai
-  #   link: uploads/resume.pdf
+    link: https://scholar.google.com/citations?user=-QPz328AAAAJ&hl=zh-CN&oi=ao
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/zzhao-98
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/zhenhao-zhao-7ba6a9176/
+
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
@@ -38,22 +64,16 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-#email: 'zzhao98@gwu.edu'
+email: 'zzhao98@gwu.edu'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-I am a Professor in the Department of Government, McDonough School of Business, and School of Foreign Service at Georgetown University.  
 
-My research focuses on the distributional consequences of globalization. In my books and research articles, I ask why technological innovation, reduced trade barriers, and foreign capital have enabled unprecedented economic prosperity. Yet, the benefits of globalization have been so unequal. I examine how and why this inequality creates political tensions, worsens societal divisions, and drives support for reactionary policies. In all of these works, I look closely at the politics and policies which exacerbate or mitigate these outcomes. My research spans both developed and developing economies, with a greater emphasis on the latter. 
-
-In 2020, I was a recipient of the Woodrow Wilson Fellowship. I have also been awarded the Fulbright-Nehru Foundation Academic Fellowship at the Indian Institute of Management, Bangalore, India, and an International Affairs Fellow of the Council on Foreign Relations at the World Bank.
-
-My primary research and teaching fields include International political economy, International Development, Global governance, Poverty and the world economy, Globalization and redistribution, States and markets, and Democratization.
-
-
-My most recent book is Democracies in Peril: Taxation and Redistribution in Globalizing Economies, coauthored with Ida Bastiaens (Cambridge University Press 2018).
+I am a Ph.D. student in the Assistive Robotics & Telemedicine (ART-MED) Lab advised by Prof. {{< staticref "http://www.chunghyukpark.com/" "newtab" >}}Chung-Hyuk Park{{< /staticref >}}.
+My research focuses on machine learning, computer vision and their related application.
+I am currently working on designing the artificial intelligence system for the medical scenario and a UAS automatic landing research mentored by the Prof. {{< staticref "https://web.seas.gwu.edu/pwei/" "newtab" >}}Peng Wei{{< /staticref >}}.
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
